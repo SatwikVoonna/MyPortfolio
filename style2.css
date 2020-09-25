@@ -1,0 +1,36 @@
+html,body{
+    text-align: center;
+    background-image: url("spaceBG.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+}
+.header{
+    background-color: blueviolet;
+    display:flex;
+    text-align: center;
+    
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    
+}
+h1 {
+    margin-left:50%;
+    margin-top: 3%;
+    transform:translate(-50%,-50%);
+    color: red;
+    font-size: 250%;
+}
+.grid{
+    margin-top: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a:link{
+    color:red;
+}
